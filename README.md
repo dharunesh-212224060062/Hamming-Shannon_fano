@@ -185,6 +185,10 @@ Efficiency_sf = (entropy / L_sf) * 100
 ```
 # Calculation:
 
+<img width="763" height="772" alt="image" src="https://github.com/user-attachments/assets/a73aea69-bd47-40fa-a76a-ba9d25bfb293" />
+
+<img width="624" height="556" alt="image" src="https://github.com/user-attachments/assets/6e0d326d-c925-43bd-a3ee-cf62e59e449c" />
+
 # Output
 
 <img width="1191" height="940" alt="image" src="https://github.com/user-attachments/assets/d94b5098-ef6b-4af4-9598-f12edd1ce1ec" />
