@@ -199,9 +199,64 @@ Efficiency_sf = (entropy / L_sf) * 100
 <img width="624" height="556" alt="image" src="https://github.com/user-attachments/assets/6e0d326d-c925-43bd-a3ee-cf62e59e449c" />
 
 # Output
+```
+Symbols and Probabilities
+----------------------------------------
+S1 : 0.125
+S2 : 0.0625
+S3 : 0.25
+S4 : 0.0625
+S5 : 0.125
+S6 : 0.125
+S7 : 0.25
 
-<img width="1191" height="940" alt="image" src="https://github.com/user-attachments/assets/d94b5098-ef6b-4af4-9598-f12edd1ce1ec" />
+Entropy Calculation
+----------------------------------------
+Entropy H(X) = 2.6250 bits/symbol
 
- 
+Huffman Codes
+----------------------------------------
+S1 : 111
+S2 : 0110
+S3 : 00
+S4 : 0111
+S5 : 110
+S6 : 010
+S7 : 10
+
+Shannon-Fano Codes
+----------------------------------------
+S3 : 00
+S7 : 01
+S1 : 100
+S5 : 101
+S6 : 110
+S2 : 1110
+S4 : 1111
+
+============================================================
+FINAL RESULTS
+============================================================
+
+HUFFMAN CODING RESULTS
+----------------------------------------
+Average Codeword Length = 2.6250
+Entropy                = 2.6250
+Variance               = 0.4844
+Redundancy             = 0.0000
+Efficiency             = 100.00%
+
+SHANNON-FANO CODING RESULTS
+----------------------------------------
+Average Codeword Length = 2.6250
+Entropy                = 2.6250
+Variance               = 0.4844
+Redundancy             = 0.0000
+Efficiency             = 100.00%
+
+Comparison Complete.
+============================================================
+``` 
 # Results:
 
+Huffman and Shannon-Fano coding methods were implemented on the provided source. Calculations for average codeword length, entropy, variance, redundancy, and coding efficiency have been carried out successfully and verified.
